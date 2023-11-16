@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(back5.jfif); */
+    background-image: url(back4.jfif);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(40, 61, 222, 0.868);
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    
+}
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 68, 0, 0.635);
+    overflow: hidden;
+}
+h1{
+    margin-top: 100px;
+    color: orangered;
+}
+.Im{
+    color: orangered;
+}
+h2{
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+    /* margin-top: 100px; */
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 6px;
+    /* height: 50px; */
+}
+h2,h3{
+
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-inline-start: 22%;
+    color: white;
+}
+/* h1,h2{
+    margin: 10px;
+} */
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:  rgb(40, 61, 222, 0.868);
+}
+
+section {
+    /* padding: 20px; */
+    color:white;
+    /* text-align: center; */
+    /* display: flex; */
+}
+h2,h3,.dev,.button-container,img{
+    display: flex;
+}
+.dev{
+    margin-inline-start: 30%;
+    color: rgba(255, 68, 0, 0.76);
+}
+img{
+    margin-top: 6px;
+    width: px;
+    height: 300px;
+    margin-inline-start: 65%;
+}
+button{
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    /* margin-inline-start: 30%; */
+    margin-right: 10px;
+    border: 2px solid orangered;
+}
+.button-container{
+    margin-inline-start: 30%;
+}
+.project {
+    margin-bottom: 30px;
+}
+.project img{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 200px;
+}
+footer {
+    text-decoration: wavy;
+    color: rgba(255, 68, 0, 0.87);
+    background-color: rgb(40, 61, 222, 0.5);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

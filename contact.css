@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(back6.jfif);
+    background-size: cover;
+    
+}
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 68, 0, 0.635);
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:  rgb(40, 61, 222, 0.5);
+}
+h1{
+    color: orangered;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    background-color: rgb(40, 61, 222, 0.5);
+}
+input{
+    width: 300px;
+    margin: 2px;
+    align-items: center;
+    margin-inline-start: 25px;
+}
+
+form{
+    margin-inline-start: 35%;
+    background-color: rgb(40, 61, 222, 0.5);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+}
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius:20px ;
+    width: 100px;
+    margin-inline-start: 125px;
+    border: 1px solid orangered;
+}
+button:hover{
+    transform: scale(0.95);
+}
+footer {
+    text-decoration: wavy;
+    color: rgba(255, 68, 0, 0.87);
+    background-color: rgb(40, 61, 222, 0.5);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+i{
+    margin: 10px;
+}
+.fa-instagram{
+    color: rgb(209, 25, 55);
+}
+.fa-twitter{
+    color: rgb(0, 213, 255);
+}
+.fa-facebook{
+    color: rgb(0, 98, 255);
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-youtube{
+    color: rgb(228, 23, 23);
+}
+i:hover{
+    transform: scale(1.5);
+}
